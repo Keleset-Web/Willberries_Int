@@ -422,12 +422,16 @@ button {
     border: 1px solid black
 }
 
-.cart-buy{
+.cart-buy, .cart-clear{
     background-color: #28a745;
     border-color: #28a745;
     display: block;
     margin-left: auto;
     height: 40px;
+}
+.cart-clear{
+    background-color: #a72828;
+    border-color: #d8d8d8;
 }
 
 
@@ -460,6 +464,9 @@ button {
     width: 5px;
 }
 
+.banners a{
+    text-decoration: none;
+}
 
 @media (max-width: 1200px) {
     .slide-1 {
